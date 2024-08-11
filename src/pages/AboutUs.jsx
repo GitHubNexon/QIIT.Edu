@@ -29,6 +29,7 @@ const AboutUs = () => {
               <iframe
                 width="560"
                 height="315"
+                className="max-sm:w-[400px] max-sm:h-[320px]"
                 loading="lazy"
                 src={video.src}
                 title={video.title}
