@@ -25,7 +25,7 @@ function App() {
   }, []);
 
   return (
-    <Router>
+    <Router basename="/QIIT.edu">
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
