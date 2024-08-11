@@ -1,5 +1,7 @@
 import React from "react";
 import AboutSection from "../sections/AboutSection";
+import Footer from "../sections/Footer";
+import Education from "../sections/Education";
 
 const videos = [
   {
@@ -55,6 +57,8 @@ const AboutUs = () => {
         </p>
       </div>
       <AboutSection />
+      <Education />
+      <Footer />
     </>
   );
 };

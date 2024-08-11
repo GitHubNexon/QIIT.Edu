@@ -72,7 +72,7 @@ const Footer = () => {
       </div>
 
       {/* Location map */}
-      <div className="bg-gray-800 p- flex items-center justify-center">
+      <div className="bg-gray-800 flex items-center justify-center">
         <LocationMap />
       </div>
 
