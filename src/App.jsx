@@ -18,6 +18,8 @@ import ContactUs from "./pages/ContactUs";
 import Teaching from './sub-pages/Teaching';
 import CollegeResources from "./sub-pages/CollegeResources";
 import K12Resources from "./sub-pages/K12Resources";
+import Bachelors from "./sub-pages/Bachelors";
+import Masters from "./sub-pages/Masters";
 
 function App() {
   useEffect(() => {
@@ -40,6 +42,8 @@ function App() {
           <Route path="/campus-life" element={<CampusLife />} />
           <Route path="/contact-us" element={<ContactUs />} /> 
           {/* sub pages */}
+          <Route path="/bachelors" element={<Bachelors />} />
+          <Route path="/masters" element={<Masters />} />
           <Route path="/teaching" element={<Teaching />} />
           <Route path="/college-resources" element={<CollegeResources />} />
           <Route path="/k-12-resources" element={<K12Resources />} />         

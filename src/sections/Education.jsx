@@ -5,16 +5,16 @@ const Education = () => {
   const navigate = useNavigate();
 
   const handleLearnMoreClick = () => {
-    navigate('/teaching');
+    navigate("/teaching");
   };
 
   const handleLCollegeClick = () => {
-    navigate('/college-resources');
-  }
+    navigate("/college-resources");
+  };
 
   const handleK12Click = () => {
-    navigate('/k-12-resources');
-  }
+    navigate("/k-12-resources");
+  };
 
   return (
     <>
@@ -25,10 +25,11 @@ const Education = () => {
             Teaching and Learning
           </h2>
           <p className="mt-4 text-lg text-center text-gray-700 sm:text-xl lg:text-2xl">
-            At Quantum Innovation Institute of Technology, we foster an environment of 
-            innovation and creativity where students are empowered to explore the latest 
-            advancements in technology. Our teaching methods blend traditional education 
-            with cutting-edge digital tools, preparing students for the future of tech.
+            At Quantum Innovation Institute of Technology, we foster an
+            environment of innovation and creativity where students are
+            empowered to explore the latest advancements in technology. Our
+            teaching methods blend traditional education with cutting-edge
+            digital tools, preparing students for the future of tech.
           </p>
           <div className="mt-8 flex justify-center">
             <button
@@ -55,16 +56,23 @@ const Education = () => {
             College and K-12 Resources
           </h2>
           <p className="mt-4 text-lg text-center text-gray-700 sm:text-xl lg:text-2xl">
-            Quantum Innovation Institute of Technology offers a wealth of resources to support 
-            both college and K-12 education. From state-of-the-art laboratories to comprehensive 
-            online learning platforms, our resources are designed to enhance the educational experience 
-            for all students.
+            Quantum Innovation Institute of Technology offers a wealth of
+            resources to support both college and K-12 education. From
+            state-of-the-art laboratories to comprehensive online learning
+            platforms, our resources are designed to enhance the educational
+            experience for all students.
           </p>
           <div className="mt-8 flex flex-col sm:flex-row justify-center gap-4">
-            <button className="bg-gray-900 text-white py-2 px-4 rounded-lg shadow-lg hover:bg-gray-800" onClick={handleLCollegeClick}>
+            <button
+              className="bg-gray-900 text-white py-2 px-4 rounded-lg shadow-lg hover:bg-gray-800"
+              onClick={handleLCollegeClick}
+            >
               Explore College Resources
             </button>
-            <button className="bg-gray-900 text-white py-2 px-4 rounded-lg shadow-lg hover:bg-gray-800" onClick={handleK12Click}>
+            <button
+              className="bg-gray-900 text-white py-2 px-4 rounded-lg shadow-lg hover:bg-gray-800"
+              onClick={handleK12Click}
+            >
               Explore K-12 Resources
             </button>
           </div>
