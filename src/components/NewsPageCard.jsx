@@ -27,7 +27,7 @@ const NewsPageCard = ({
   ...props
 }) => {
   return (
-    <div className="mx-auto p-6 bg-white w-full ">
+    <div className="mx-auto p-6 bg-white w-full " data-aos="zoom-in">
       <h1 className="text-2xl md:text-3xl font-bold text-gray-800 mb-4">{title}</h1>
       <p className="text-base md:text-lg text-gray-600 mb-4">{description}</p>
       <img className="w-full h-auto rounded-lg mb-4" src={image} alt={title} />

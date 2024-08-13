@@ -15,14 +15,14 @@ const AboutComponent = ({
 }) => {
   return (
     <div className="flex flex-col xl:flex-row items-center justify-center p-5 xl:space-x-2 lg:space-x-2 md:space-y-2 sm:space-y-2">
-      <div className="w-full xl:w-1/2 h-auto xl:h-[500px]">
+      <div className="w-full xl:w-1/2 h-auto xl:h-[500px]" data-aos="zoom-in">
         <img
           src={imgSrc}
           alt=""
           className="w-full h-full rounded-lg shadow-lg object-cover"
         />
       </div>
-      <div className="w-full xl:w-1/2 h-auto flex items-center justify-center">
+      <div className="w-full xl:w-1/2 h-auto flex items-center justify-center" data-aos="zoom-out">
         <div className="p-6 bg-white  w-full h-full flex flex-col justify-center">
           <h2 className="text-gray-800 text-xl md:text-2xl xl:text-3xl font-semibold mb-4">
             {title}

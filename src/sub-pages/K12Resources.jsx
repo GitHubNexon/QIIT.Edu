@@ -13,7 +13,7 @@ import { SiLibreofficemath } from "react-icons/si";
 
 const K12Resources = () => {
   return (
-    <div className="p-6">
+    <div className="p-6" >
       <h1 className="text-2xl font-bold mb-6 text-center pb-10">
         Empowering Students with Comprehensive K-12 Resources
       </h1>

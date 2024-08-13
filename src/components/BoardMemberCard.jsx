@@ -15,7 +15,7 @@ const BoardMemberCard = ({
   description = DEFAULTS.description,
   imgSrc = DEFAULTS.imgSrc,
 }) => (
-  <div className="flex flex-col items-center p-4 border border-gray-300 rounded-lg shadow-lg w-full h-full bg-white">
+  <div className="flex flex-col items-center p-4 border border-gray-300 rounded-lg shadow-lg w-full h-full bg-white" data-aos="zoom-in-down">
     <img src={imgSrc} alt={name} className="rounded-full w-32 h-32 mb-4" />
     <h2 className="text-2xl text-gray-600 mb-1">{name}</h2>
     <p className="text-xl text-gray-800 mb-2">{position}</p>

@@ -24,7 +24,7 @@ const BachelorsCard = ({
 
   return (
     <>
-    <div className=" max-w-4xl border border-gray-200 rounded-lg overflow-hidden shadow-lg p-4 w-full flex flex-col space-y-4 bg-white hover:shadow-xl transition-shadow duration-300">
+    <div className=" max-w-4xl border border-gray-200 rounded-lg overflow-hidden shadow-lg p-4 w-full flex flex-col space-y-4 bg-white hover:shadow-xl transition-shadow duration-300" data-aos="fade-up">
       <div className="relative  w-full h-80">
         <img
           src={image}
