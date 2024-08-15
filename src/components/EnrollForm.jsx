@@ -1,5 +1,7 @@
 import React, { useState } from "react";
+import Select from "react-select";
 import emailjs from "emailjs-com";
+import programs from "../json/programs.json"; // Adjust the path as necessary
 
 const EnrollForm = () => {
   const [formData, setFormData] = useState({
@@ -16,10 +18,17 @@ const EnrollForm = () => {
     });
   };
 
+  const handleProgramChange = (selectedOption) => {
+    setFormData({
+      ...formData,
+      program: selectedOption ? selectedOption.value : "",
+    });
+  };
+
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    console.log("Form data:", formData); // Log form data
+    console.log("Form data:", formData);
 
     const serviceID = "service_77s36as";
     const templateID = "template_iy4fh4i";
@@ -32,7 +41,7 @@ const EnrollForm = () => {
       specific_field: formData.field,
     };
 
-    console.log("Template Params:", templateParams); // Log the parameters
+    console.log("Template Params:", templateParams);
 
     emailjs
       .send(serviceID, templateID, templateParams, userID)
@@ -82,14 +91,14 @@ const EnrollForm = () => {
           <label className="block text-sm font-bold mb-2" htmlFor="program">
             Program
           </label>
-          <input
-            type="text"
+          <Select
             id="program"
             name="program"
-            value={formData.program}
-            onChange={handleChange}
-            className="w-full px-3 py-2 border rounded"
-            required
+            value={programs.find((option) => option.value === formData.program)}
+            onChange={handleProgramChange}
+            options={programs}
+            className="w-full"
+            placeholder="Select or type a program"
           />
         </div>
         <div className="mb-4">
