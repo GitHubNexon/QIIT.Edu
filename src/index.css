@@ -77,3 +77,29 @@ p {
   border: 1px solid rgba(255, 255, 255, 0.18);
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 }
+
+/* In your global CSS file or Tailwind configuration */
+
+.backdrop-blur-md {
+  backdrop-filter: blur(10px); /* Adjust the blur intensity as needed */
+}
+
+.bg-black {
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+}
+
+.fixed {
+  position: fixed;
+}
+
+.inset-0 {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+/* styles.css */
+.gradient-bg {
+  background: linear-gradient(225deg, #3B82F6 0%, #FBFCF8 100%)
+}

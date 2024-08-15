@@ -12,7 +12,7 @@ const Hero = () => {
       <div className="relative custom-bg-4 h-full w-full border-x-slate-900">
         <div className="flex justify-center py-10 items-center flex-col">
           <h1 className="text-gray-900 text-2xl sm:text-3xl md:text-4xl font-bold text-center px-4 md:px-7">
-            Welcome to Quantum Innovations Institute of Technology
+          Join Us at Quantum Innovation Institute of Technology
           </h1>
         </div>
         <div className="flex flex-col lg:flex-col xl:flex-row py-10 items-center justify-center lg:space-x-6 space-y-6 lg:space-y-0 lg:px-5 ">

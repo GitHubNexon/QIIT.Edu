@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { Link, useLocation } from "react-router-dom";
 import Logo from "../assets/school-logo.png"; 
+import { useNavigate } from "react-router-dom";
+
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -23,6 +25,12 @@ const Navbar = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [location]);
+  
+  const navigate = useNavigate();
+  // Navigate to specific sub-pages on click events
+  const handleEnrollClick = () => {
+    navigate ("/enroll-form")
+  };
 
   return (
     <div className="sticky top-0 z-50 text-white max-w-full">
@@ -75,7 +83,7 @@ const Navbar = () => {
         <button
           className="text-nowrap bg-blue-500 hover:bg-blue-700 text-white font-bold py-4 px-7 border-blue-600
           border-b-[4px] rounded hover:border-b-[6px]
-          active:border-b-[2px] active:brightness-90 active:translate-y-[2px]"
+          active:border-b-[2px] active:brightness-90 active:translate-y-[2px]" onClick={handleEnrollClick}
         >
           Enroll Now!
         </button>
