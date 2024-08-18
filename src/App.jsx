@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css"; // Import AOS styles
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+
 
 import {
   BrowserRouter as Router,
@@ -36,12 +39,12 @@ function App() {
     // Set a timeout to start the fade-out effect after 3 seconds
     const timer = setTimeout(() => {
       setFadeOut(true);
-    }, 6000);
+    }, 2000);
 
     // Set a timeout to change the loading state after the fade-out duration
     const endLoading = setTimeout(() => {
       setLoading(false);
-    }, 6500); // Adjust this time to match your fade-out duration (500ms for example)
+    }, 2500); // Adjust this time to match your fade-out duration (500ms for example)
 
     // Clean up the timers if the component unmounts
     return () => {

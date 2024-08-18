@@ -1,6 +1,7 @@
 import React from "react";
 import admissionBanner from "../assets/image/banners/admission-banner.png";
 import { FaClipboardList, FaUserGraduate, FaCheckCircle } from "react-icons/fa";
+import Footer from "../sections/Footer";
 
 const Admissions = () => {
   return (
@@ -82,7 +83,10 @@ const Admissions = () => {
           </div>
         </div>
       </div>
-      {/* ENROLLMENT FORM */}
+      {/* ADMISSION PROCESS */}
+
+      {/* Footer */}
+      <Footer />
     </div>
   );
 };

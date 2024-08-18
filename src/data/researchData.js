@@ -1,0 +1,55 @@
+const researchData = [
+    {
+      title: "Quantum Computing: The Future of Technology",
+      description: "Explore the world of quantum computing, where complex computations are performed using quantum bits (qubits) instead of classical bits.",
+      author: "Dr. Alice Johnson",
+      date: "2023-06-15",
+      category: "Quantum Computing",
+      videoLinks: "https://www.youtube.com/watch?v=8VAVl6fbBeo ,  https://www.youtube.com/watch?v=e3fz3dqhN44",
+      image: "https://www.ll.mit.edu/sites/default/files/styles/ifde_wysiwyg_full/public/facility/image/2018-04/Quantum-Computing-Laboratory-506918-026D.jpg?itok=5ebWBlIm",
+      link: "https://bernardmarr.com/the-future-of-quantum-computing/",
+    },
+    {
+      title: "Artificial Intelligence in Healthcare",
+      description: "A deep dive into the role of artificial intelligence in revolutionizing healthcare, from diagnostics to personalized medicine.",
+      author: "Dr. Robert Lee",
+      date: "2023-07-10",
+      category: "Artificial Intelligence",
+      videoLinks: "https://www.youtube.com/watch?v=uvqDTbusdUU",
+      image: "https://imageio.forbes.com/blogs-images/bernardmarr/files/2018/07/AdobeStock_157266517-1200x640.jpeg?format=jpg&height=900&width=1600&fit=bounds",
+      link: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.forbes.com%2Fsites%2Fbernardmarr%2F2018%2F07%2F27%2Fhow-is-ai-used-in-healthcare-5-powerful-real-world-examples-that-show-the-latest-advances%2F&psig=AOvVaw06ZRVTsP5WMuaAENU9jiqr&ust=1724061295275000&source=images&cd=vfe&opi=89978449&ved=0CBcQjhxqFwoTCKjq8_ui_ocDFQAAAAAdAAAAABAE",
+    },
+    {
+      title: "Renewable Energy Sources and Sustainability",
+      description: "Discover the latest advancements in renewable energy sources, and how they contribute to a more sustainable future.",
+      author: "Dr. Emily Clark",
+      date: "2023-08-01",
+      category: "Renewable Energy",
+      videoLinks: "https://www.youtube.com/watch?v=Ms--0d7Oh0s",
+      image: "https://www.energy.gov/sites/default/files/2017/05/f34/26962.jpg",
+      link: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.energy.gov%2Feere%2Frenewable-energy&psig=AOvVaw1sBylotowSu6dxIIYnK-wI&ust=1724061439401000&source=images&cd=vfe&opi=89978449&ved=0CBcQjhxqFwoTCICYpcCj_ocDFQAAAAAdAAAAABAE",
+    },
+    {
+      title: "Blockchain Technology: Beyond Cryptocurrency",
+      description: "Learn how blockchain technology is being utilized in various industries beyond just cryptocurrency.",
+      author: "Dr. Michael Brown",
+      date: "2023-09-05",
+      category: "Blockchain",
+      videoLinks: "https://www.youtube.com/watch?v=agTwi4PJSC8",
+      image: "https://www.analyticssteps.com/backend/media/thumbnail/777299/6834963_1690733797_Blockchain%20Use%20cases%20beyond%20CryptoArtboard%201.jpg",
+      link: "https://www.youtube.com/watch?v=agTwi4PJSC8",
+    },
+    {
+      title: "Advancements in Nanotechnology",
+      description: "This research explores the cutting-edge advancements in nanotechnology and its potential applications in various fields.",
+      author: "Dr. Sarah Williams",
+      date: "2023-10-20",
+      category: "Nanotechnology",
+      videoLinks: "https://www.youtube.com/watch?v=NNoAWz12VL4",
+      image: "https://media.licdn.com/dms/image/D4D12AQF8lb2Ek67hSQ/article-cover_image-shrink_720_1280/0/1711175546918?e=2147483647&v=beta&t=3ONhezOOfT5dNZpU6SeR-DmzBDX9qryk_2H45c8AZlc",
+      link: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.linkedin.com%2Fpulse%2F2024-nanotechnology-market-leading-players-developments-i7ugf&psig=AOvVaw0JZ8hQyf6oyItXR_7Si_eD&ust=1724061505891000&source=images&cd=vfe&opi=89978449&ved=0CBcQjhxqFwoTCJi7h-Gj_ocDFQAAAAAdAAAAABAK",
+    },
+  ];
+  
+  export default researchData;
+  
