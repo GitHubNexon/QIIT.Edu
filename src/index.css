@@ -21,6 +21,12 @@
   }
 }
 
+@media (max-width: 640px) {
+  body {
+    overflow-x: hidden !important;
+  }
+}
+
 @media (max-width: 640px) and (orientation: landscape) {
   .no-scroll {
     overflow: auto;
@@ -44,6 +50,7 @@ body {
   background-repeat: none;
   overflow-x: hidden;
   max-width: 100%;
+  width: 100vw;
   box-sizing: border-box;
 }
 
