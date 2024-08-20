@@ -20,16 +20,16 @@ const AboutUs = () => {
   return (
     <>
       <div className="container mx-auto px-4 py-8 items-center">
-        <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1 xl:grid-cols-2 gap-4 mb-8 items-center justify-items-center" >
+        <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1 xl:grid-cols-2 gap-4 mb-8 items-center justify-items-center">
           {videos.map((video) => (
             <div
               key={video.id}
-              className="relative overflow-hidden sm:mx-10 md:mx-5 lg:mx-5 2xl:mx-5 object-contain sm:w-[400]" 
+              className="relative overflow-x-hidden max-sm:mx-10 md:mx-5 lg:mx-5 2xl:mx-5 object-cover sm:w-[400]"
             >
               <iframe
                 width="560"
                 height="315"
-                className="max-sm:w-[400px] max-sm:h-[320px]"
+                className="max-sm:w-[380px] max-sm:h-[320px]"
                 loading="lazy"
                 src={video.src}
                 title={video.title}
