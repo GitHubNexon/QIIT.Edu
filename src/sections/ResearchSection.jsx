@@ -6,7 +6,7 @@ import researchData from "../data/researchData";
 const ResearchSection = () => {
   return (
     <>
-      <div className="mx-auto py-8 custom-bg-4 w-full h-full">
+      <div className="mx-auto py-8 custom-bg-4 w-full h-full flex items-center flex-col">
         <h2 className="text-gray-900 text-center py-5 font-bold text-5xl uppercase">
         Pioneering Quantum Frontiers
         </h2>
